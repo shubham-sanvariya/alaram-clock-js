@@ -41,6 +41,8 @@ function fetch_time() {
     const formattedTime = `${formattedHour.toString().padStart(2, '0')}:${minutes}:${seconds} ${amOrPm}`;
 
     time.textContent = formattedTime;
+
+    ring_remove_alarm(formattedTime, "ring");
 }
 
 setAlarmButton.addEventListener("click", getInput);
@@ -77,10 +79,10 @@ function ring_remove_alarm(time, remove_type) {
     alarmElements.forEach((element) => {
         if (element.textContent === time) {
             // Remove the alarm element from its parent
-            element.parentElement.remove(); p
+            element.parentElement.remove();
             if (remove_type === "ring") {
                 alert("alarm ringing");
-            } p
+            }
         }
     });
 }
