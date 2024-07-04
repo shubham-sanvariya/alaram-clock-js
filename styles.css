@@ -1,0 +1,10 @@
+body {
+    background-image: url("pexels-monoar-rahman-22660-100733.jpg");
+    background-size: cover;
+}
+
+.page-title{
+    display: flex;
+    justify-content: center;
+    color: beige;
+}
