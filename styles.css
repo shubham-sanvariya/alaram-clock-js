@@ -25,3 +25,27 @@ body {
     color: goldenrod;
     text-align: center;
 }
+
+.set-alarm {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.8rem;
+}
+
+.set-alarm form select {
+    color: burlywood;
+    background-color: transparent;
+    border-radius: 3.1rem;
+}
+
+.set-alarm form select option {
+    background-color: cadetblue;
+}
+
+.set-alarm button {
+    background-color: #010b7e;
+    color: white;
+    width: 5.6rem;
+    height: 1.6rem;
+    border-radius: 4px;
+}
