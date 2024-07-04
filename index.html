@@ -13,9 +13,29 @@
     </div>
 
     <div class="container">
+        <!-- In header we are showing the current time provided by javascript funtionality -->
         <header>
             <h3 id="time"></h3>
         </header>
+
+        <section>
+            <div class="set-alarm">
+                <div>
+                    <form>
+                        <select name="hours" id="hours" required></select>
+        
+                        <select name="minutes" id="minutes" required></select>
+        
+                        <select name="seconds" id="seconds" required></select>
+                        <select name="am-pm" id="am-pm" required>
+                            <option value="AM">AM</option>
+                            <option value="PM">PM</option>
+                        </select>
+                    </form>
+                </div>
+                <button id="set_alarm">Set Alarm</button>
+            </div>
+        </section>
     </div>
     <script src="script.js"></script>
 </body>
