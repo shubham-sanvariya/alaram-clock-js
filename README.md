@@ -21,7 +21,3 @@ This is a simple and stylish web-based alarm clock that allows you to set alarms
 * HTML: For the basic structure of the webpage.
 * CSS: For styling the various elements of the alarm clock.
 * JavaScript: For functionality like adding alarms, displaying the current time, and removing alarms.
-
-## Contributing
-
-Feel free to fork this repository and contribute your improvements.
